@@ -12,7 +12,7 @@ const Navbar = () => {
     };
 
     return (
-        <section className="w-full h-auto lg:min-h-screen snap-mandatory snap-x">
+        <section className="w-full lg:min-w-screen">
             <nav className="snap-start bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <Link href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -58,7 +58,7 @@ const Navbar = () => {
                         </button>
                     </div>
                     <div
-                        className={`items-center justify-between w-full lg:flex lg:w-auto lg:order-1 mx-auto ${
+                        className={`items-center justify-between w-full lg:flex lg:w-auto lg:order-1 mx-auto f ${
                             isMenuOpen ? "block" : "hidden"
                         }`}
                         id="navbar-sticky"

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ChristmasHeader from "@/components/ChristmasHeader/page";
 import Facilities from "@/components/Facilities/page";
 import About from "@/components/About/page";

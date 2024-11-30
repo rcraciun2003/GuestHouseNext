@@ -1,11 +1,10 @@
 'use client';
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 const ChristmasHeader: React.FC = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [parallaxOffset, setParallaxOffset] = useState({ x: 0, y: 0 });
 
     // Toggle modal visibility
     const toggleModal = () => {
@@ -19,7 +18,7 @@ const ChristmasHeader: React.FC = () => {
                 className="relative bg-cover bg-center h-screen flex items-center justify-center text-white overflow-hidden"
                 style={{
                     backgroundImage: "url('craciun2.jpg')",
-                    transform: `translate(${parallaxOffset.x}px, ${parallaxOffset.y}px)`,
+
                 }}
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}

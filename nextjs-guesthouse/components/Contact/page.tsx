@@ -11,7 +11,6 @@ const ContactSection: React.FC<ContactSectionProps> = ({
                                                            address,
                                                            email,
                                                            phone,
-                                                           description,
                                                        }) => {
     return (
         <section className="w-full " id="contact">
